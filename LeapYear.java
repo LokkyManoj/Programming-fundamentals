@@ -13,7 +13,7 @@ public class LeapYear {
 				return;
 			}
 			
-		if(year%400==0) {
+		else if(year%400==0) {
 			System.out.println("This is leap year");
 		}
 		if(year%4==0&&year%100!=0)
